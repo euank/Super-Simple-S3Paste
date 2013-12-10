@@ -42,5 +42,8 @@ I plan to do the following as well:
 * See if I can exclude the versionid from the view.html page by ensuring view
 defaults to the earliest version anyways, and that there's only one version of
 each id that matters ever
+* Expiring. Still contemplating how to do this; possibly set expiration and
+have an hourly cron job sweep it (or even have user clients of
+paste.html/view.html delete old items).
 * Create a generic file host in addition to text host using the exact same idea
 
