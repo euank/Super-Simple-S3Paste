@@ -38,7 +38,7 @@ document.getElementById('upload').onclick = function() {
         errNode.innerHTML = "Error uploading paste. Send help please. " + err;
         return;
       }
-      var url = baseRawUrl + pasteId + "?versionId=" + encodeURIComponent(res.VersionId);
+      var url = baseRawUrl + encodeURIComponent(pasteId) + "?versionId=" + encodeURIComponent(res.VersionId);
       successNode.innerHTML = "Paste uploaded!<br />" +
                               'Redirecting you to its page <a href="'+url+'">here</a>';
       window.location = url;
