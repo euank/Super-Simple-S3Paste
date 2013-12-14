@@ -1,8 +1,8 @@
+AWS.config.update(awsCredentials);
+var bucket = rawBucket;
 // can't use an alias like raw.paste.esk.io because ?versionId doesn't work then
-var baseRawUrl = "https://s3.amazonaws.com/raw.paste.esk.io/";
-var bucket = "raw.paste.esk.io";
+var baseRawUrl = "https://s3.amazonaws.com/"+bucket+"/";
 var PASTEID_LENGTH = 10;
-
 
 var s3 = new AWS.S3();
 

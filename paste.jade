@@ -1,0 +1,21 @@
+doctype 5
+html
+  head
+    title Super Simple Paste
+    script(src="https://sdk.amazonaws.com/js/aws-sdk-2.0.0-rc2.js")
+    script.
+      awsCredentials = !{JSON.stringify(awsCredentials)}
+      rawBucket = "#{rawBucket}"
+  body
+    h1 Enter text to store
+    noscript
+      h1(style="color: red")
+        | Javascript is required to use this site
+    label(for="pid") Paste ID:
+    input(id="pid",type="text")
+    #err
+    #success
+    textarea(style="width: 100%; height: 300px",id="paste")
+    br
+    input(type="button",id="upload",value="Store")
+    script(src="paste.js")

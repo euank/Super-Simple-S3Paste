@@ -6,6 +6,12 @@ A simple, entirely client-side, paste-site using s3.
 It's running at [paste.esk.io](http://paste.esk.io) right now, and for the
 forseeable future.
 
+## Installing
+
+Create two buckets and a user with admin permissions to it. Enter them into
+config.js as the 'site' and 'raw' buckets. Manually enable versioning on the raw
+bucket. run `node deploy.js`.
+
 ## Notes
 
 
