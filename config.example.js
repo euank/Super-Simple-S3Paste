@@ -16,8 +16,8 @@ module.exports = {
   //These credentials should have s3:GetObject and s3:PutObject on the rawBucket.
   //I'm not sure you actually need em with my permissions anyways
   pasteCredentials: {
-    accessKeyId: 'AKIAJR2ZYLCFLYCY2CNA',
-    secretAccessKey: '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'
+    accessKeyId: 'XXXXXXXXXXXXXXXXXXXX',
+    secretAccessKey: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
   }
 }
 

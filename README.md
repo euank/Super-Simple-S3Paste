@@ -33,7 +33,9 @@ I believe this entirely resolves that problem.
 
 This required read/write credentials (didn't want to force login for
 the more secure credential option) to be visible to all clients. I even
-included them in this repo for now. In order to limit abuse, I think I'll
+originally 
+included them in this repo until Amazon banned my account temporarily for being
+"exploited". In order to limit abuse, I think I'll
 also write a program that deletes all non-plaintext files and all files
 larger than 10M. This won't prevent abuse, but it will make storing large
 files on my dime less useful since they'll vanish randomly.
